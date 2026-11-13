@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="macaron">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFF4EC">
+<title>拉了吗？</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stage">
+  <div class="phone" id="phone">
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" id="brandMark"></div>
+        <div class="brand-text">
+          <h1 id="brandTitle">拉了吗？</h1>
+          <p id="brandSub">今天，通畅了吗？</p>
+        </div>
+      </div>
+      <button class="streak-chip" id="streakChip" type="button" data-act="go-streak">
+        <span class="streak-dot"></span>
+        <b id="streakNum">0</b>
+        <span class="streak-lbl">天</span>
+      </button>
+    </header>
+
+    <main id="view" class="view"><div class="boot">正在打开马桶盖…</div></main>
+
+    <nav class="tabbar" id="tabbar"></nav>
+
+    <div class="toast-wrap" id="toastWrap"></div>
+    <div class="sheet-wrap" id="sheetWrap"></div>
+    <div class="confetti-wrap" id="confettiWrap"></div>
+
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

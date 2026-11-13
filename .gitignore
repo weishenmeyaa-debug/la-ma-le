@@ -1,0 +1,23 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+*.bak-*
+
+# 本地产物（不进仓库）
+node_modules/
+dist/
+build/
+*.zip
+
+# WorkBuddy 工作区数据
+.workbuddy/
